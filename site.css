@@ -1,0 +1,116 @@
+
+.img1 {
+ margin-top: 0.7em;
+ border: 10px solid #00585a;
+ border-radius: 50%;
+ position: relative;
+}
+
+span{
+  font-size: 3.5em;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  animation: blink 3s linear infinite;
+  animation-direction: alternate;
+  color: 	#00989b;
+}
+
+@keyframes blink {
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+}
+
+body {
+  background-color:  #00181a;
+}
+
+h1 {
+  padding-top: 0.2em;
+  font-size: 2em;
+  font-family: Verdana;
+  font-weight: bold;
+  color: #dcdedd ;}
+
+
+h2 {
+  padding-top: 10%;
+  font-size: 2em;
+  font-family: Arial black;
+  color: #dcdedd ;
+}
+
+h3 {
+  font-size: 1.05em ;
+  font-family: Verdana;
+  font-weight: bold; 
+  padding-left: 25%;
+  padding-right: 25%;
+  color: #99a2a1;
+}
+
+h4 {
+  font-size: 1em ;
+  font-family: Verdana;
+  font-weight: 500;
+  padding-top: 1em;
+  color: #99a2a1;
+}
+
+ul {
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  background-color:#00181a;
+  z-index: 5;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,.1);
+  backdrop-filter: blur(2px);
+}
+
+i {
+  font-size: 50px;
+}
+
+li {
+  display: inline;
+  padding: 35px;
+  float: right;
+  color: #99a2a1;
+}
+
+li:first-child{
+  padding-right: 30px;
+}
+
+li :hover {
+  color: 	#00989b;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#icons{ 
+  margin-top: 2em;
+  color: #99a2a1;
+  font-size: 45px;
+  padding: 55px;
+}
+
+.link{
+  color:#00989b;
+}
+
+#icons:hover{
+  color: 	#00989b;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#trademark{
+  font-size: 80%;
+}
+
